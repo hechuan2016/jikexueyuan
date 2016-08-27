@@ -1,0 +1,1232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #f5f5f5;
+}
+/*头部导航部分样式设置*/
+#nav{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: white ;
+	text-align: center;
+}
+
+#nav #nav_menu{
+	width: 1000px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+}
+
+#nav #nav_menu .menu_l{
+	line-height: 60px;
+	float: left;
+}
+#nav #nav_menu .menu_l a img{
+	width: 109px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+#nav #nav_menu .menu_l a{
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #555;
+	padding-left: 30px;
+}
+
+#nav #nav_menu .menu_l a:hover{
+	color: rgb(53, 181, 88);
+}
+
+#nav #nav_menu .menu_l a.home{
+	color: rgb(53, 181, 88);
+	font-weight: bold;
+}
+
+#nav #nav_menu .menu_r{
+	float: right;
+}
+
+#nav #nav_menu .menu_r a img{
+	width: 17px;
+	height: 17px;
+	padding-left: 25px;
+}
+/*header头部样式设置*/
+#header{
+	position: relative;
+	width: 1000px;
+	height: 330px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#header .image1{
+	width: 750px;
+	height: 330px;
+	cursor: pointer;
+}
+
+#header .sign{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: white;
+}
+
+#header .image2{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+/*头部图片轮播部分样式设置*/
+#header .sign{
+	padding: 26px 29px 24px;
+	box-sizing: border-box;
+}
+
+#header .sign img{
+	width: 57px;
+	height: 57px;
+	float: left;
+	cursor: pointer;
+
+}
+
+#header .sign .pdiv{
+	float: left;
+}
+
+#header .sign .pdiv p{
+	font-size: 12px;
+	line-height: 30px;
+	margin-left: 20px;
+	color: #555;
+}
+
+#header .sign button{
+	width: 85px;
+	height: 32px;
+	border: 1px solid rgb(53, 181, 88);
+	background: white;
+	border-radius: 2px;
+	color: rgb(53, 181, 88);
+	margin-top: 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#header .sign button:hover{
+	background: rgb(53, 181, 88);
+	color: white;
+}
+
+/*就业班主题内容部分1样式设置*/
+#content1{
+	width: 1000px;
+	height: 130px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: white;
+	box-sizing: border-box;
+}
+/*php就业班样式设置*/
+#content1 .php{
+	width: 248px;
+	height: 130px;
+	float: left;
+	text-align: center;
+	background: url("imge2/php.png") no-repeat center 20px;
+	background-size: 130px 65px;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+}
+
+#content1 .php p{
+	margin-top: 90px;
+	color: #555;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+#content1 .php p:hover{
+	color: rgb(53, 181, 88);
+}
+/*web就业班样式设置*/
+#content1 .web{
+	width: 248px;
+	height: 130px;
+	float: left;
+	text-align: center;
+	background: url("imge2/html5.png") no-repeat center 20px;
+	background-size: 130px 65px;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+}
+
+#content1 .web p{
+	margin-top: 90px;
+	color: #555;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+#content1 .web p:hover{
+	color: rgb(53, 181, 88);
+}
+/*android就业班样式设置*/
+#content1 .android{
+	width: 248px;
+	height: 130px;
+	float: left;
+	text-align: center;
+	background: url("imge2/android.png") no-repeat center 20px;
+	background-size: 130px 65px;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+}
+
+#content1 .android p{
+	margin-top: 90px;
+	color: #555;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+#content1 .android p:hover{
+	color: rgb(53, 181, 88);
+}
+/*ios就业班样式设置*/
+#content1 .ios{
+	width: 248px;
+	height: 130px;
+	float: left;
+	text-align: center;
+	background: url("imge2/ios.png") no-repeat center 20px;
+	background-size: 130px 65px;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+}
+
+#content1 .ios p{
+	margin-top: 90px;
+	color: #555;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+#content1 .ios p:hover{
+	color: rgb(53, 181, 88);
+}
+
+/*就业班主题内容部分2样式设置*/
+#content2{
+	width: 1000px;
+	height: 268px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/*web前端实习样式设置*/
+#content2 .weber{
+	width: 233px;
+	height: 268px;
+	border: 1px solid #f0f0f0;
+	background: white;
+	float: left;
+	cursor: pointer;
+}
+
+#content2 .weber img{
+	width: 233px;
+	height: 155px;
+}
+
+#content2 .weber h6{
+	color: #555;
+	padding-top: 15px;
+	padding-left: 15px;
+	font-weight: normal;
+}
+
+#content2 .weber p{
+	color: #aaa;
+	padding-top: 20px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+#content2 .weber p strong{
+	color: #ff5c00;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*就业班主题内容部分2样式设置*/
+#content2{
+	width: 1000px;
+	height: 268px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/*vue.js前端框架详解样式设置*/
+#content2 .vuejs{
+	width: 233px;
+	height: 268px;
+	border: 1px solid #f0f0f0;
+	background: white;
+	float: left;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+#content2 .vuejs img{
+	width: 233px;
+	height: 155px;
+}
+
+#content2 .vuejs h6{
+	color: #555;
+	padding-top: 15px;
+	padding-left: 15px;
+	font-weight: normal;
+}
+
+#content2 .vuejs p{
+	color: #aaa;
+	padding-top: 20px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+#content2 .vuejs p strong{
+	color: #ff5c00;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*基于phthon静态爬虫实战样式设置*/
+#content2 .phthon{
+	width: 233px;
+	height: 268px;
+	border: 1px solid #f0f0f0;
+	background: white;
+	float: left;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+#content2 .phthon img{
+	width: 233px;
+	height: 155px;
+}
+
+#content2 .phthon h6{
+	color: #555;
+	padding-top: 15px;
+	padding-left: 15px;
+	font-weight: normal;
+}
+
+#content2 .phthon p{
+	color: #aaa;
+	padding-top: 20px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+#content2 .phthon p strong{
+	color: #ff5c00;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*基于Go语言的短链接服务实战样式设置*/
+#content2 .go{
+	width: 233px;
+	height: 268px;
+	border: 1px solid #f0f0f0;
+	background: white;
+	float: left;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+#content2 .go img{
+	width: 233px;
+	height: 155px;
+}
+
+#content2 .go h6{
+	color: #555;
+	padding-top: 15px;
+	padding-left: 15px;
+	font-weight: normal;
+}
+
+#content2 .go p{
+	color: #aaa;
+	padding-top: 20px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+#content2 .go p strong{
+	color: #ff5c00;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*职业学院主题内容部分样式设计*/
+#content3{
+	width: 1000px;
+	height: 310px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#content3 h2{
+	width: 1000px;
+	height: 18px;
+	margin-bottom: 20px;
+	color: #555;
+	font-size: 20px;
+}
+/*web前端工程师样式设置*/
+#content3 .cweb{
+	width: 500px;
+	height: 270px;
+	background: url("imge3/bgweb.jpg") no-repeat center;
+	background-size: 500px 270px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+#content3 .cweb img{
+	width: 55px;
+	height: 84px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+#content3 .cweb p{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*python web工程师样式设置*/
+#content3 .cpython{
+	width: 240px;
+	height: 130px;
+	background: url("imge3/bgpython.jpg") no-repeat center;
+	background-size: 240px 130px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+#content3 .cpython img{
+	width: 36px;
+	height: 36px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#content3 .cpython p{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*Go语言工程师样式设置*/
+#content3 .cgo{
+	width: 240px;
+	height: 130px;
+	background: url("imge3/bggo.jpg") no-repeat center;
+	background-size: 240px 130px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+#content3 .cgo img{
+	width: 36px;
+	height: 36px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#content3 .cgo p{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*ios工程师样式设置*/
+#content3 .cios{
+	width: 240px;
+	height: 130px;
+	background: url("imge3/bgios.jpg") no-repeat center;
+	background-size: 240px 130px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#content3 .cios img{
+	width: 36px;
+	height: 36px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#content3 .cios p{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*更多职业样式设置*/
+#content3 .cmore{
+	width: 240px;
+	height: 130px;
+	background: url("imge3/bgmore.jpg") no-repeat center;
+	background-size: 240px 130px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#content3 .cmore img{
+	width: 36px;
+	height: 36px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#content3 .cmore p{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*会员课程主题部分样式设置*/
+#content4{
+	width: 1000px;
+	height: 420px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#content4 h2{
+	width: 1000px;
+	height: 18px;
+	margin-bottom: 20px;
+	color: #555;
+	font-size: 20px;
+}
+/*android课程样式设置*/
+#content4 .android{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+}
+
+#content4 .android:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .android img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .android p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .android .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*iOS课程样式设置*/
+#content4 .ios{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+#content4 .ios:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .ios img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .ios p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .ios .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*swift课程样式设置*/
+#content4 .swift{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+#content4 .swift:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .swift img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .swift p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .swift .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*html5课程样式设置*/
+#content4 .html5{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+#content4 .html5:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .html5 img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .html5 p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .html5 .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*javascript课程样式设置*/
+#content4 .javascript{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+#content4 .javascript:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .javascript img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .javascript p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .javascript .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*js课程样式设置*/
+#content4 .js{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+}
+
+#content4 .js:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .js img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .js p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .js .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*c课程样式设置*/
+#content4 .c{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+}
+
+#content4 .c:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .c img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .c p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .c .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*java课程样式设置*/
+#content4 .java{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#content4 .java:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .java img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .java p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .java .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*php课程样式设置*/
+#content4 .php{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#content4 .php:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .php img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .php p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .php .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*javaweb课程样式设置*/
+#content4 .javaweb{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#content4 .javaweb:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .javaweb img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .javaweb p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .javaweb .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*python课程样式设置*/
+#content4 .python{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#content4 .python:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .python img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .python p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .python .content4_p{
+	color: rgb(53, 181, 88);
+}
+/*cocos2d课程样式设置*/
+#content4 .cocos2d{
+	width: 156px;
+	height: 148px;
+	text-align: center;
+	background: white;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#content4 .cocos2d:hover{
+	box-shadow: 2px 2px 0.5px #ccc;
+}
+
+#content4 .cocos2d img{
+	width: 55px;
+	height: 55px;
+	margin-top: 25px;
+}
+
+#content4 .cocos2d p{
+	width: 156px;
+	height: 22px;
+	line-height: 22px;
+	color: #555;
+	font-size: 13px;
+}
+
+#content4 .cocos2d .content4_p{
+	color: rgb(53, 181, 88);
+}
+
+#content4 button{
+	width: 120px;
+	height: 32px;
+	border: 1px solid rgb(53, 181, 88);
+	background: white;
+	border-radius: 2px;
+	color: rgb(53, 181, 88);
+	margin-top: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 440px;
+}
+
+#content4 button:hover{
+	background: rgb(53, 181, 88);
+	color: white;
+}
+
+/*学员故事主题内容样式设置*/
+#content5{
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#content5 h2{
+	width: 1000px;
+	height: 18px;
+	margin-bottom: 20px;
+	color: #555;
+	font-size: 20px;
+}
+/*学员1样式设置*/
+#content5 .cont_student{
+	float: left;
+}
+#content5 .strong_p{
+	width: 318px;
+	height: 119px;
+	background: white;
+	position: relative;
+	border: 1px solid #f0f0f0;
+}
+
+#content5 .strong_p p{
+	color: #555;
+	font-size: 12px;
+	line-height: 20px;
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+#content5 .strong_p p span{
+	color: #ff5c00;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#content5 .student1{
+	width: 320px;
+	height: 80px;
+	box-sizing: border-box;
+}
+
+#content5 .student1 img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+#content5 .student1 p,span{
+	width: 225px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 25px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #555;
+}
+/*学员2样式设置*/
+#content5 .cont_student{
+	float: left;
+	margin-left: 10px;
+}
+
+#content5 .strong_p{
+	width: 318px;
+	height: 119px;
+	background: white;
+	position: relative;
+	border: 1px solid #f0f0f0;
+}
+
+#content5 .strong_p p{
+	color: #555;
+	font-size: 12px;
+	line-height: 20px;
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+#content5 .strong_p p span{
+	color: #ff5c00;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#content5 .student2{
+	width: 320px;
+	height: 80px;
+	box-sizing: border-box;
+}
+
+#content5 .student2 img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+#content5 .student2 p,span{
+	width: 225px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 25px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #555;
+}
+/*学员3样式设置*/
+#content5 .cont_student{
+	float: left;
+	margin-left: 10px;
+}
+
+#content5 .strong_p{
+	width: 318px;
+	height: 119px;
+	background: white;
+	position: relative;
+	border: 1px solid #f0f0f0;
+}
+
+#content5 .strong_p p{
+	color: #555;
+	font-size: 12px;
+	line-height: 20px;
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+#content5 .strong_p p span{
+	color: #ff5c00;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#content5 .student3{
+	width: 320px;
+	height: 80px;
+	box-sizing: border-box;
+}
+
+#content5 .student3 img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+#content5 .student3 p,span{
+	width: 225px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 25px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #555;
+}
+/*底部主要信息内容样式设置*/
+#footer{
+	width: 100%;
+	height: 215px;
+	margin-top: 60px;
+	background: white;
+	border-top: 2px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+#footer .footer_cont{
+	width: 1000px;
+	height: 215px;
+	margin: 0 auto;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+#footer .footer_cont .footer_l{
+	float: left;
+}
+
+#footer .footer_cont .footer_l img{
+	width: 109px;
+	height: 40px;
+}
+
+#footer .footer_cont .footer_l p{
+	margin-top: 20px;
+	color: #999;
+	font-size: 12px;
+}
+
+#footer .footer_cont .footer_r{
+	margin-left: 60px;
+	float: left;
+}
+
+#footer .footer_cont .footer_r ul{
+	display: inline-block;
+	width: 140px;
+}
+
+#footer .footer_cont .footer_r ul .header_li{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#footer .footer_cont .footer_r ul li{
+	list-style: none;
+	line-height: 30px;
+	color: #999;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#footer .footer_cont .footer_r ul li:hover{
+	color: rgb(53, 181, 88);
+}
+
+#footer .footer_cont .footer_r{
+	float: right;
+}
+#footer .footer_cont .footer_r ul li div{
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #999;
+	border-top: 1px solid #f0f0f0;
+	background: url("imge5/icon-ios.png")no-repeat 0 0;
+	background-size: 30px 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#footer .footer_cont .footer_r .ul_right li{
+	color: #999;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*最底部公司网站信息样式设置*/
+#footer2 .footer2_p{
+	width: 1000px;
+	height: 46px;
+	line-height: 46px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#footer2 .footer2_p p{
+	color: #999;
+	font-size: 13px;
+}
+
+
+
+
+
